@@ -6,3 +6,6 @@
 	path = observatory-client
 	url = https://github.com/rcos/observatory-client.git
 	branch = dev
+[submodule "themes/aerial"]
+	path = themes/aerial
+	url = https://github.com/sethmacleod/aerial.git
