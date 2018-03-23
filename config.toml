@@ -1,3 +1,27 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Observatory Docs"
+baseurl = "http://rcos.github.io/observatory-docs"
+theme = "aerial"
+
+[params]
+  name = "Observatory Docs"
+  about = "Server & Client documentation for RCOS Observatory"
+  copyright = "RCOS"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = "False"
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Server"
+  icon = "server"
+  link = "./server-docs"
+
+[[params.social]]
+  medium = "Client"
+  icon = "desktop"
+  link = "./client-docs"
+
+[[params.social]]
+  medium = "Home"
+  icon = "home"
+  link = "https://github.com/rcos"
